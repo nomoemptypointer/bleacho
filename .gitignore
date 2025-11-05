@@ -1,3 +1,11 @@
+# CPM cache
+.cpmcache
+
+# IDEs
+.idea
+.vscode
+.vs
+
 # Prerequisites
 *.d
 

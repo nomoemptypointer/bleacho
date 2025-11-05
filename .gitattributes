@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# CPM is not part of this project, it's vendored
+cmake/CPM.cmake linguist-vendored
