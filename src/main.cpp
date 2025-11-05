@@ -1,8 +1,10 @@
-#include <iostream>
-#include <ostream>
+#include "arguments.h"
 
 int main(int argc, char* argv[]) {
-    std::cout << "Hello World!" << std::endl;
-    std::cout << BUILD_VERSION << std::endl;
+    arguments::parse(argc, argv);
+    // TODO: Implement splash screen
+    //std::string splash = "";
+    //std::cout << splash;
+
     return 0;
 }
